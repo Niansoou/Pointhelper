@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="#727372"><!--涟漪背景色 -->
+
+    <item android:id="@android:id/mask"> <!--mask 可以添加一些有趣的图像效果，会按照图像的轮廓来产生涟漪范围-->
+        <shape android:shape="rectangle">
+            <solid android:color="#8cc476"/> <!--默认背景色-->
+            <corners android:topLeftRadius="10dip"
+                android:topRightRadius="10dip"
+                android:bottomRightRadius="10dip"
+                android:bottomLeftRadius="10dip" />
+        </shape>
+    </item>
+</ripple>

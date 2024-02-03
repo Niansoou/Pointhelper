@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--选中状态ture-->
+    <item android:drawable="@drawable/track_true" android:state_checked="true"/>
+
+    <!--选中状态false-->
+    <item android:drawable="@drawable/track_false" android:state_checked="false"/>
+</selector>
